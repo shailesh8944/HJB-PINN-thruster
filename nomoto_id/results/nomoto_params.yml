@@ -1,0 +1,24 @@
+params:
+  n_max: 1.0
+  k_V: 0.870969969583197
+  T_V: 3.2596166460216613
+  k_r: 1.0202367865451296
+  T_r: 0.923565525632501
+  V_max: 1.741939939166394
+  r_max: 1.0202367865451296
+notes:
+  units: n_port/n_stbd are Makara thruster actuators in [-1, 1]
+  n_max: Set to 1.0 for actuator-normalized control (recommended for PINN)
+  source: Makara sookshma 6-DOF open-loop thruster steps
+  model: V_dot=(-V+k_V*(np+ns))/T_V; r_dot=(-r+k_r*(np-ns))/T_r
+surge_levels:
+- 0.45
+- 0.55
+- 0.65
+- 0.75
+yaw_levels:
+- 0.45
+- 0.55
+- 0.65
+- 0.75
+pinn_snippet: VesselParams(n_max=1.0000, k_V=0.870970, T_V=3.2596, k_r=1.020237, T_r=0.9236)

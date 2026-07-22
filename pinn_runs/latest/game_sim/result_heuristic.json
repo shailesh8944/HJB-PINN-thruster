@@ -1,0 +1,10 @@
+{
+  "mode": "heuristic",
+  "captured": true,
+  "capture_time": 19.3,
+  "reason": "captured",
+  "final_min_distance": 1.949601836442789,
+  "rho": 2.0,
+  "sim_time": 19.3,
+  "V_max": 1.74194
+}

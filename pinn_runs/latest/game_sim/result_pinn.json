@@ -1,0 +1,10 @@
+{
+  "mode": "pinn",
+  "captured": false,
+  "capture_time": null,
+  "reason": "escaped",
+  "final_min_distance": 15.879798514563761,
+  "rho": 2.0,
+  "sim_time": 90.0,
+  "V_max": 1.74194
+}
